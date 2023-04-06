@@ -1,0 +1,21 @@
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\Prime cinema.exe
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\Prime cinema.deps.json
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\Prime cinema.runtimeconfig.json
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\Prime cinema.dll
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\Prime cinema.pdb
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.csproj.AssemblyReference.cache
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form1.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.csproj.GenerateResource.cache
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.GeneratedMSBuildEditorConfig.editorconfig
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.AssemblyInfoInputs.cache
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.AssemblyInfo.cs
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.csproj.CoreCompileInputs.cache
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.dll
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\refint\Prime cinema.dll
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.pdb
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.genruntimeconfig.cache
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\ref\Prime cinema.dll
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Properties.Resources.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form2.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form3.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Menu1.resources
