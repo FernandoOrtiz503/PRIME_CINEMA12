@@ -19,3 +19,7 @@ D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form2.resources
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form3.resources
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Menu1.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Salas.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.sucursales.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.peliculas.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Inicio.resources

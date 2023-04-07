@@ -76,7 +76,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(-15, 32);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(1277, 312);
+            this.button7.Size = new System.Drawing.Size(1276, 312);
             this.button7.TabIndex = 11;
             this.button7.UseVisualStyleBackColor = false;
             // 
@@ -93,7 +93,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(1032, 394);
+            this.button6.Location = new System.Drawing.Point(1050, 392);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(176, 59);
             this.button6.TabIndex = 5;
@@ -114,7 +114,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(1032, 472);
+            this.button5.Location = new System.Drawing.Point(1050, 472);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(176, 59);
             this.button5.TabIndex = 4;
@@ -136,7 +136,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(346, 350);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(650, 314);
+            this.button4.Size = new System.Drawing.Size(653, 314);
             this.button4.TabIndex = 4;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -151,7 +151,7 @@
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(1068, 544);
+            this.button3.Location = new System.Drawing.Point(1050, 544);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(217, 234);
             this.button3.TabIndex = 3;
@@ -170,7 +170,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1263, 34);
+            this.panel2.Size = new System.Drawing.Size(1261, 34);
             this.panel2.TabIndex = 0;
             // 
             // button1
@@ -195,7 +195,7 @@
             this.cerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cerrar.Image = global::Prime_cinema.Properties.Resources.eliminar25;
-            this.cerrar.Location = new System.Drawing.Point(1221, 0);
+            this.cerrar.Location = new System.Drawing.Point(1220, -1);
             this.cerrar.Name = "cerrar";
             this.cerrar.Size = new System.Drawing.Size(41, 35);
             this.cerrar.TabIndex = 3;
@@ -210,7 +210,7 @@
             this.max.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.max.Image = global::Prime_cinema.Properties.Resources.m25;
-            this.max.Location = new System.Drawing.Point(1180, 0);
+            this.max.Location = new System.Drawing.Point(1179, -1);
             this.max.Name = "max";
             this.max.Size = new System.Drawing.Size(41, 35);
             this.max.TabIndex = 2;
@@ -225,7 +225,7 @@
             this.minimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizar.Image = global::Prime_cinema.Properties.Resources.menos25;
-            this.minimizar.Location = new System.Drawing.Point(1139, 0);
+            this.minimizar.Location = new System.Drawing.Point(1138, -1);
             this.minimizar.Name = "minimizar";
             this.minimizar.Size = new System.Drawing.Size(41, 35);
             this.minimizar.TabIndex = 1;

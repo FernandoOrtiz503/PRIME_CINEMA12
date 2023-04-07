@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.btnLimpiarC = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -49,6 +49,7 @@
             this.max = new System.Windows.Forms.Button();
             this.minimizar = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.inicio = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -56,11 +57,12 @@
             // panel1
             // 
             this.panel1.BackgroundImage = global::Prime_cinema.Properties.Resources.textura;
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.inicio);
+            this.panel1.Controls.Add(this.txtContraseña);
+            this.panel1.Controls.Add(this.txtNombre);
+            this.panel1.Controls.Add(this.btnLimpiarC);
             this.panel1.Controls.Add(this.button13);
             this.panel1.Controls.Add(this.button12);
-            this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button7);
@@ -72,26 +74,53 @@
             this.panel1.Size = new System.Drawing.Size(1256, 622);
             this.panel1.TabIndex = 2;
             // 
-            // textBox2
+            // txtContraseña
             // 
-            this.textBox2.Location = new System.Drawing.Point(387, 281);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(582, 28);
-            this.textBox2.TabIndex = 16;
-            this.textBox2.Text = "Contraseña:";
+            this.txtContraseña.BackColor = System.Drawing.Color.White;
+            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtContraseña.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtContraseña.Location = new System.Drawing.Point(392, 287);
+            this.txtContraseña.Multiline = true;
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(554, 21);
+            this.txtContraseña.TabIndex = 25;
+            this.txtContraseña.Text = "Contraseña:";
+            this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
+            this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox1.Location = new System.Drawing.Point(387, 202);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(582, 26);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.Text = "Usuario";
+            this.txtNombre.BackColor = System.Drawing.Color.White;
+            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtNombre.Location = new System.Drawing.Point(392, 205);
+            this.txtNombre.Multiline = true;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(554, 21);
+            this.txtNombre.TabIndex = 24;
+            this.txtNombre.Text = "Nombre:";
+            this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
+            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
+            // 
+            // btnLimpiarC
+            // 
+            this.btnLimpiarC.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnLimpiarC.BackColor = System.Drawing.Color.Transparent;
+            this.btnLimpiarC.BackgroundImage = global::Prime_cinema.Properties.Resources.btn22;
+            this.btnLimpiarC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLimpiarC.FlatAppearance.BorderSize = 0;
+            this.btnLimpiarC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnLimpiarC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnLimpiarC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiarC.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLimpiarC.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnLimpiarC.Location = new System.Drawing.Point(437, 518);
+            this.btnLimpiarC.Name = "btnLimpiarC";
+            this.btnLimpiarC.Size = new System.Drawing.Size(241, 56);
+            this.btnLimpiarC.TabIndex = 23;
+            this.btnLimpiarC.Text = "LIMPIAR CAMPOS";
+            this.btnLimpiarC.UseVisualStyleBackColor = false;
+            this.btnLimpiarC.Click += new System.EventHandler(this.btnLimpiarC_Click);
             // 
             // button13
             // 
@@ -128,25 +157,6 @@
             this.button12.Size = new System.Drawing.Size(197, 214);
             this.button12.TabIndex = 13;
             this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button11.BackColor = System.Drawing.Color.Transparent;
-            this.button11.BackgroundImage = global::Prime_cinema.Properties.Resources.btn22;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button11.Location = new System.Drawing.Point(541, 518);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(380, 72);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "INICIAR SESION";
-            this.button11.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
@@ -377,6 +387,26 @@
             this.panel3.Size = new System.Drawing.Size(1261, 661);
             this.panel3.TabIndex = 1;
             // 
+            // inicio
+            // 
+            this.inicio.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.inicio.BackColor = System.Drawing.Color.Transparent;
+            this.inicio.BackgroundImage = global::Prime_cinema.Properties.Resources.btn22;
+            this.inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.inicio.FlatAppearance.BorderSize = 0;
+            this.inicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.inicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.inicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.inicio.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.inicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.inicio.Location = new System.Drawing.Point(684, 518);
+            this.inicio.Name = "inicio";
+            this.inicio.Size = new System.Drawing.Size(380, 56);
+            this.inicio.TabIndex = 26;
+            this.inicio.Text = "INICIAR SESION";
+            this.inicio.UseVisualStyleBackColor = false;
+            this.inicio.Click += new System.EventHandler(this.inicio_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -404,7 +434,6 @@
         private Button button5;
         private Button button4;
         private Button button6;
-        private Button button11;
         private Button button13;
         private Button button12;
         private Panel panel2;
@@ -416,7 +445,9 @@
         private Button button8;
         private Button button9;
         private Button button10;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private Button btnLimpiarC;
+        private TextBox txtNombre;
+        private TextBox txtContraseña;
+        private Button inicio;
     }
 }

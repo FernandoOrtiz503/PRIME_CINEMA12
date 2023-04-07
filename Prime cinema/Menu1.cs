@@ -16,5 +16,63 @@ namespace Prime_cinema
         {
             InitializeComponent();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            //Cierra el form.
+            this.Close();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+            //Si está normal lo maximiza, si está maximizado vuelve normal.
+            if (WindowState == FormWindowState.Normal)
+                WindowState = FormWindowState.Maximized;
+            else if (WindowState == FormWindowState.Maximized)
+                WindowState = FormWindowState.Normal;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            //Si está normal lo minimiza, si está maximizado vuelve minimiza.
+            if (WindowState == FormWindowState.Normal)
+                WindowState = FormWindowState.Minimized;
+            else if (WindowState == FormWindowState.Maximized)
+                WindowState = FormWindowState.Minimized;
+        }
+
+        private void AbrirFormEnPanel(object formhija)
+        {
+            if (this.conteee.Controls.Count > 0)
+                this.conteee.Controls.RemoveAt(0);
+            Form fh = formhija as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.conteee.Controls.Add(fh);
+            this.conteee.Tag = fh;
+            fh.Show();
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new sucursales());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Salas());
+        }
+
+        private void btnpeliculas_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new peliculas());
+        }
+
+        private void btninicio_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Inicio());
+        }
     }
 }

@@ -30,8 +30,15 @@
         {
             this.button5 = new System.Windows.Forms.Button();
             this.regis = new System.Windows.Forms.Panel();
+            this.btnLimpiarC = new System.Windows.Forms.Button();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtDui = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.button13 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnRegristrar = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -45,12 +52,6 @@
             this.max = new System.Windows.Forms.Button();
             this.minimizar = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.regis.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -76,14 +77,15 @@
             // regis
             // 
             this.regis.BackgroundImage = global::Prime_cinema.Properties.Resources.textura;
-            this.regis.Controls.Add(this.textBox6);
-            this.regis.Controls.Add(this.textBox5);
-            this.regis.Controls.Add(this.textBox4);
-            this.regis.Controls.Add(this.textBox3);
-            this.regis.Controls.Add(this.textBox2);
-            this.regis.Controls.Add(this.textBox1);
+            this.regis.Controls.Add(this.btnLimpiarC);
+            this.regis.Controls.Add(this.txtContraseña);
+            this.regis.Controls.Add(this.txtCorreo);
+            this.regis.Controls.Add(this.txtTelefono);
+            this.regis.Controls.Add(this.txtDireccion);
+            this.regis.Controls.Add(this.txtDui);
+            this.regis.Controls.Add(this.txtNombre);
             this.regis.Controls.Add(this.button13);
-            this.regis.Controls.Add(this.button7);
+            this.regis.Controls.Add(this.btnRegristrar);
             this.regis.Controls.Add(this.button6);
             this.regis.Controls.Add(this.button3);
             this.regis.Controls.Add(this.button4);
@@ -93,6 +95,110 @@
             this.regis.Name = "regis";
             this.regis.Size = new System.Drawing.Size(1246, 625);
             this.regis.TabIndex = 1;
+            // 
+            // btnLimpiarC
+            // 
+            this.btnLimpiarC.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnLimpiarC.BackColor = System.Drawing.Color.Transparent;
+            this.btnLimpiarC.BackgroundImage = global::Prime_cinema.Properties.Resources.btn22;
+            this.btnLimpiarC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLimpiarC.FlatAppearance.BorderSize = 0;
+            this.btnLimpiarC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnLimpiarC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnLimpiarC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiarC.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLimpiarC.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnLimpiarC.Location = new System.Drawing.Point(414, 530);
+            this.btnLimpiarC.Name = "btnLimpiarC";
+            this.btnLimpiarC.Size = new System.Drawing.Size(241, 56);
+            this.btnLimpiarC.TabIndex = 22;
+            this.btnLimpiarC.Text = "LIMPIAR CAMPOS";
+            this.btnLimpiarC.UseVisualStyleBackColor = false;
+            this.btnLimpiarC.Click += new System.EventHandler(this.btnLimpiarC_Click);
+            // 
+            // txtContraseña
+            // 
+            this.txtContraseña.BackColor = System.Drawing.Color.White;
+            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtContraseña.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtContraseña.Location = new System.Drawing.Point(414, 450);
+            this.txtContraseña.Multiline = true;
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(554, 21);
+            this.txtContraseña.TabIndex = 21;
+            this.txtContraseña.Text = "Contraseña:";
+            this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
+            this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
+            // 
+            // txtCorreo
+            // 
+            this.txtCorreo.BackColor = System.Drawing.Color.White;
+            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCorreo.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtCorreo.Location = new System.Drawing.Point(414, 402);
+            this.txtCorreo.Multiline = true;
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(554, 21);
+            this.txtCorreo.TabIndex = 20;
+            this.txtCorreo.Text = "Correo:";
+            this.txtCorreo.Enter += new System.EventHandler(this.txtCorreo_Enter);
+            this.txtCorreo.Leave += new System.EventHandler(this.txtCorreo_Leave);
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTelefono.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtTelefono.Location = new System.Drawing.Point(414, 348);
+            this.txtTelefono.Multiline = true;
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(554, 21);
+            this.txtTelefono.TabIndex = 19;
+            this.txtTelefono.Text = "Telefono:";
+            this.txtTelefono.Enter += new System.EventHandler(this.txtTelefono_Enter);
+            this.txtTelefono.Leave += new System.EventHandler(this.txtTelefono_Leave);
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.BackColor = System.Drawing.Color.White;
+            this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDireccion.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtDireccion.Location = new System.Drawing.Point(414, 290);
+            this.txtDireccion.Multiline = true;
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(554, 21);
+            this.txtDireccion.TabIndex = 18;
+            this.txtDireccion.Text = "Direccion:";
+            this.txtDireccion.Enter += new System.EventHandler(this.txtDireccion_Enter);
+            this.txtDireccion.Leave += new System.EventHandler(this.txtDireccion_Leave);
+            // 
+            // txtDui
+            // 
+            this.txtDui.BackColor = System.Drawing.Color.White;
+            this.txtDui.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDui.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtDui.Location = new System.Drawing.Point(414, 234);
+            this.txtDui.Multiline = true;
+            this.txtDui.Name = "txtDui";
+            this.txtDui.Size = new System.Drawing.Size(554, 21);
+            this.txtDui.TabIndex = 17;
+            this.txtDui.Text = "Dui:";
+            this.txtDui.Enter += new System.EventHandler(this.txtDui_Enter);
+            this.txtDui.Leave += new System.EventHandler(this.txtDui_Leave);
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.BackColor = System.Drawing.Color.White;
+            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtNombre.Location = new System.Drawing.Point(414, 175);
+            this.txtNombre.Multiline = true;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(554, 21);
+            this.txtNombre.TabIndex = 16;
+            this.txtNombre.Text = "Nombre:";
+            this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
+            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // button13
             // 
@@ -114,24 +220,25 @@
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
-            // button7
+            // btnRegristrar
             // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.BackgroundImage = global::Prime_cinema.Properties.Resources.btn22;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Location = new System.Drawing.Point(518, 517);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(380, 72);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "REGISTRARSE";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnRegristrar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnRegristrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnRegristrar.BackgroundImage = global::Prime_cinema.Properties.Resources.btn22;
+            this.btnRegristrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRegristrar.FlatAppearance.BorderSize = 0;
+            this.btnRegristrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnRegristrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnRegristrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegristrar.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRegristrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegristrar.Location = new System.Drawing.Point(682, 530);
+            this.btnRegristrar.Name = "btnRegristrar";
+            this.btnRegristrar.Size = new System.Drawing.Size(353, 56);
+            this.btnRegristrar.TabIndex = 9;
+            this.btnRegristrar.Text = "REGISTRARSE";
+            this.btnRegristrar.UseVisualStyleBackColor = false;
+            this.btnRegristrar.Click += new System.EventHandler(this.btnRegristrar_Click);
             // 
             // button6
             // 
@@ -324,78 +431,6 @@
             this.panel3.Size = new System.Drawing.Size(1261, 661);
             this.panel3.TabIndex = 1;
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox1.Location = new System.Drawing.Point(414, 175);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(554, 21);
-            this.textBox1.TabIndex = 16;
-            this.textBox1.Text = "Usuario";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox2.Location = new System.Drawing.Point(414, 234);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(554, 21);
-            this.textBox2.TabIndex = 17;
-            this.textBox2.Text = "Usuario";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox3.Location = new System.Drawing.Point(414, 290);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(554, 21);
-            this.textBox3.TabIndex = 18;
-            this.textBox3.Text = "Usuario";
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox4.Location = new System.Drawing.Point(414, 348);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(554, 21);
-            this.textBox4.TabIndex = 19;
-            this.textBox4.Text = "Usuario";
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox5.Location = new System.Drawing.Point(414, 402);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(554, 21);
-            this.textBox5.TabIndex = 20;
-            this.textBox5.Text = "Usuario";
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox6.Location = new System.Drawing.Point(414, 450);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(554, 21);
-            this.textBox6.TabIndex = 21;
-            this.textBox6.Text = "Usuario";
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -422,7 +457,7 @@
         private Button button4;
         private Button button3;
         private Button button6;
-        private Button button7;
+        private Button btnRegristrar;
         private Button button13;
         private Panel panel2;
         private Button button1;
@@ -433,11 +468,12 @@
         private Button button8;
         private Button button9;
         private Button button10;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtContraseña;
+        private TextBox txtCorreo;
+        private TextBox txtTelefono;
+        private TextBox txtDireccion;
+        private TextBox txtDui;
+        private TextBox txtNombre;
+        private Button btnLimpiarC;
     }
 }

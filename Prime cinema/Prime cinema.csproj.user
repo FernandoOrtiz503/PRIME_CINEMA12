@@ -10,7 +10,19 @@
     <Compile Update="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Menu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="peliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Salas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="sucursales.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
