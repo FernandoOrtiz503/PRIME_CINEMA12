@@ -19,7 +19,7 @@ namespace Prime_cinema
 
         private void button8_Click(object sender, EventArgs e)
         {
-            //Cierra el form.
+            //Cierra el formm.
             this.Close();
         }
 
