@@ -1,0 +1,6 @@
+Contraseña: 1234
+Correo electrónico: dasdsad
+DUI: 123321
+Teléfono: dasdasd
+Dirección: sddasda
+Rol: Usuario

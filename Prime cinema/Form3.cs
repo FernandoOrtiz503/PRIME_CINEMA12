@@ -104,7 +104,7 @@ namespace Prime_cinema
 
         private void inicio_Click(object sender, EventArgs e)
         {
-            string archivo = @"D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\" + txtNombre.Text + ".txt";
+            string archivo = @"D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\Usuarios\" + txtNombre.Text + ".txt";
 
             // Verificar que el archivo existe
             if (!File.Exists(archivo))
@@ -116,12 +116,16 @@ namespace Prime_cinema
             // Leer las credenciales del archivo
             string[] lineas = File.ReadAllLines(archivo);
             string contraseñaGuardada = null;
+            string rol = null;
             foreach (string linea in lineas)
             {
                 if (linea.StartsWith("Contraseña:"))
                 {
                     contraseñaGuardada = linea.Substring("Contraseña:".Length).Trim();
-                    break;
+                }
+                else if (linea.StartsWith("Rol:"))
+                {
+                    rol = linea.Substring("Rol:".Length).Trim();
                 }
             }
 
@@ -134,16 +138,23 @@ namespace Prime_cinema
 
             // Iniciar sesión
             MessageBox.Show("Inicio de sesión exitoso", "Inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             // Crea una instancia del nuevo formulario que deseas abrir
-            Form formulario2 = new Menu1();
+            Form formulario;
+            if (rol == "Administrador")
+            {
+                formulario = new Menu1();
+            }
+            else
+            {
+                formulario = new publi();
+            }
 
             // Cierra el formulario actual
             this.Hide();
 
-
             // Muestra el nuevo formulario
-            formulario2.ShowDialog();
-
+            formulario.ShowDialog();
         }
     }
 }

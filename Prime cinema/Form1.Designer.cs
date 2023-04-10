@@ -134,9 +134,9 @@
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(346, 350);
+            this.button4.Location = new System.Drawing.Point(347, 367);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(653, 314);
+            this.button4.Size = new System.Drawing.Size(653, 281);
             this.button4.TabIndex = 4;
             this.button4.UseVisualStyleBackColor = false;
             // 

@@ -185,7 +185,7 @@ namespace Prime_cinema
 
         private bool ExisteDui(string dui)
         {
-            string[] archivos = Directory.GetFiles(@"D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\", "*.txt");
+            string[] archivos = Directory.GetFiles(@"D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\Usuarios\", "*.txt");
             foreach (string archivo in archivos)
             {
                 using (TextReader reader = new StreamReader(archivo))
@@ -204,9 +204,9 @@ namespace Prime_cinema
         }
         private void btnRegristrar_Click(object sender, EventArgs e)
         {
-            
+
             // Verificar que el usuario no existe aún
-            string archivo = @"D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\net6.0-windows\" + txtNombre.Text + ".txt";
+            string archivo = @"D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\bin\Debug\Usuarios\" + txtNombre.Text + ".txt";
             if (File.Exists(archivo))
             {
                 MessageBox.Show("El usuario ya existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -230,6 +230,9 @@ namespace Prime_cinema
                     writer.WriteLine($"DUI: {txtDui.Text}");
                     writer.WriteLine($"Teléfono: {txtTelefono.Text}");
                     writer.WriteLine($"Dirección: {txtDireccion.Text}");
+
+                    // Agregar el rol de usuario normal
+                    writer.WriteLine("Rol: Usuario");
                 }
 
                 MessageBox.Show("Usuario registrado correctamente", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -247,5 +250,5 @@ namespace Prime_cinema
                 MessageBox.Show($"Ocurrió un error al crear el archivo: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-    }
+    } 
 }

@@ -46,6 +46,7 @@
             this.max = new System.Windows.Forms.Button();
             this.minimizar = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel1.BackgroundImage = global::Prime_cinema.Properties.Resources.base2;
+            this.panel1.Controls.Add(this.btnVolver);
             this.panel1.Controls.Add(this.btninicio);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button6);
@@ -79,7 +81,7 @@
             this.btninicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btninicio.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btninicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btninicio.Location = new System.Drawing.Point(20, 551);
+            this.btninicio.Location = new System.Drawing.Point(20, 515);
             this.btninicio.Name = "btninicio";
             this.btninicio.Size = new System.Drawing.Size(176, 59);
             this.btninicio.TabIndex = 10;
@@ -100,7 +102,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Location = new System.Drawing.Point(20, 474);
+            this.button7.Location = new System.Drawing.Point(20, 450);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(176, 59);
             this.button7.TabIndex = 9;
@@ -120,7 +122,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(20, 398);
+            this.button6.Location = new System.Drawing.Point(20, 385);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(176, 59);
             this.button6.TabIndex = 8;
@@ -140,7 +142,7 @@
             this.btnpeliculas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnpeliculas.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnpeliculas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnpeliculas.Location = new System.Drawing.Point(20, 333);
+            this.btnpeliculas.Location = new System.Drawing.Point(20, 320);
             this.btnpeliculas.Name = "btnpeliculas";
             this.btnpeliculas.Size = new System.Drawing.Size(176, 59);
             this.btnpeliculas.TabIndex = 7;
@@ -161,7 +163,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(20, 268);
+            this.button3.Location = new System.Drawing.Point(20, 255);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(176, 59);
             this.button3.TabIndex = 6;
@@ -182,7 +184,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(20, 203);
+            this.button5.Location = new System.Drawing.Point(20, 190);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(176, 59);
             this.button5.TabIndex = 5;
@@ -343,6 +345,26 @@
             this.panel4.Size = new System.Drawing.Size(1261, 661);
             this.panel4.TabIndex = 1;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.BackgroundImage = global::Prime_cinema.Properties.Resources.btn22;
+            this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnVolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnVolver.Location = new System.Drawing.Point(54, 592);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(102, 57);
+            this.btnVolver.TabIndex = 16;
+            this.btnVolver.Text = "VOLVER";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // Menu1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -382,5 +404,6 @@
         private Button button10;
         private Button button11;
         private Button btninicio;
+        private Button btnVolver;
     }
 }

@@ -29,15 +29,20 @@
         private void InitializeComponent()
         {
             this.sucur = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtPersona = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.sucur.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -45,7 +50,12 @@
             // sucur
             // 
             this.sucur.BackgroundImage = global::Prime_cinema.Properties.Resources.textura;
-            this.sucur.Controls.Add(this.button7);
+            this.sucur.Controls.Add(this.button6);
+            this.sucur.Controls.Add(this.txtTelefono);
+            this.sucur.Controls.Add(this.txtDireccion);
+            this.sucur.Controls.Add(this.txtPersona);
+            this.sucur.Controls.Add(this.txtNombre);
+            this.sucur.Controls.Add(this.btnEliminar);
             this.sucur.Controls.Add(this.label1);
             this.sucur.Controls.Add(this.button11);
             this.sucur.Controls.Add(this.button5);
@@ -56,19 +66,143 @@
             this.sucur.Controls.Add(this.button4);
             this.sucur.Location = new System.Drawing.Point(0, -2);
             this.sucur.Name = "sucur";
-            this.sucur.Size = new System.Drawing.Size(1038, 665);
+            this.sucur.Size = new System.Drawing.Size(1041, 665);
             this.sucur.TabIndex = 0;
+            // 
+            // button6
+            // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Image = global::Prime_cinema.Properties.Resources.Limpiar;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(213, 399);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(181, 42);
+            this.button6.TabIndex = 33;
+            this.button6.Text = "Limpiar";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTelefono.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtTelefono.Location = new System.Drawing.Point(25, 312);
+            this.txtTelefono.Multiline = true;
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(754, 28);
+            this.txtTelefono.TabIndex = 32;
+            this.txtTelefono.Text = "Telefono:";
+            this.txtTelefono.Enter += new System.EventHandler(this.txtTelefono_Enter);
+            this.txtTelefono.Leave += new System.EventHandler(this.txtTelefono_Leave);
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.BackColor = System.Drawing.Color.White;
+            this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDireccion.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtDireccion.Location = new System.Drawing.Point(25, 243);
+            this.txtDireccion.Multiline = true;
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(754, 28);
+            this.txtDireccion.TabIndex = 31;
+            this.txtDireccion.Text = "Direccion:";
+            this.txtDireccion.Enter += new System.EventHandler(this.txtDireccion_Enter);
+            this.txtDireccion.Leave += new System.EventHandler(this.txtDireccion_Leave);
+            // 
+            // txtPersona
+            // 
+            this.txtPersona.BackColor = System.Drawing.Color.White;
+            this.txtPersona.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPersona.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtPersona.Location = new System.Drawing.Point(25, 185);
+            this.txtPersona.Multiline = true;
+            this.txtPersona.Name = "txtPersona";
+            this.txtPersona.Size = new System.Drawing.Size(754, 28);
+            this.txtPersona.TabIndex = 30;
+            this.txtPersona.Text = "Nombre persona encargada:";
+            this.txtPersona.Enter += new System.EventHandler(this.txtPersona_Enter);
+            this.txtPersona.Leave += new System.EventHandler(this.txtPersona_Leave);
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.BackColor = System.Drawing.Color.White;
+            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtNombre.Location = new System.Drawing.Point(25, 125);
+            this.txtNombre.Multiline = true;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(754, 28);
+            this.txtNombre.TabIndex = 29;
+            this.txtNombre.Text = "Nombre de la Sucursal:";
+            this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
+            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnEliminar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
+            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnEliminar.Image = global::Prime_cinema.Properties.Resources.borrar2;
+            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminar.Location = new System.Drawing.Point(419, 399);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(181, 42);
+            this.btnEliminar.TabIndex = 28;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI Historic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(368, 41);
+            this.label1.Location = new System.Drawing.Point(283, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(305, 37);
             this.label1.TabIndex = 21;
             this.label1.Text = "Administrar Sucursales";
+            // 
+            // button11
+            // 
+            this.button11.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button11.BackColor = System.Drawing.Color.Transparent;
+            this.button11.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button11.Image = global::Prime_cinema.Properties.Resources.añadir1;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(13, 399);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(181, 42);
+            this.button11.TabIndex = 27;
+            this.button11.Text = "Agregar";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button5
             // 
@@ -89,12 +223,22 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Orange;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 456);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1014, 209);
             this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.VirtualMode = true;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // button3
             // 
@@ -110,7 +254,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(12, 302);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(785, 53);
+            this.button3.Size = new System.Drawing.Size(788, 53);
             this.button3.TabIndex = 14;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -128,7 +272,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(12, 234);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(785, 53);
+            this.button2.Size = new System.Drawing.Size(788, 53);
             this.button2.TabIndex = 13;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -146,7 +290,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(12, 175);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(785, 53);
+            this.button1.Size = new System.Drawing.Size(788, 53);
             this.button1.TabIndex = 12;
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -164,53 +308,9 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(12, 116);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(785, 53);
+            this.button4.Size = new System.Drawing.Size(788, 53);
             this.button4.TabIndex = 11;
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Image = global::Prime_cinema.Properties.Resources.borrar2;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(199, 399);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(181, 42);
-            this.button7.TabIndex = 28;
-            this.button7.Text = "Eliminar";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button11.BackColor = System.Drawing.Color.Transparent;
-            this.button11.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button11.Image = global::Prime_cinema.Properties.Resources.añadir1;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(12, 399);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(181, 42);
-            this.button11.TabIndex = 27;
-            this.button11.Text = "Agregar";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button11.UseVisualStyleBackColor = false;
             // 
             // sucursales
             // 
@@ -221,6 +321,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "sucursales";
             this.Text = "sucursales";
+            this.Load += new System.EventHandler(this.sucursales_Load);
             this.sucur.ResumeLayout(false);
             this.sucur.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -238,7 +339,12 @@
         private DataGridView dataGridView1;
         private Label label1;
         private Button button5;
-        private Button button7;
+        private Button btnEliminar;
         private Button button11;
+        private TextBox txtTelefono;
+        private TextBox txtDireccion;
+        private TextBox txtPersona;
+        private TextBox txtNombre;
+        private Button button6;
     }
 }

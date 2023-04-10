@@ -1,0 +1,4 @@
+Numero de sala: 2
+Nombre de la Sucursal: Usulutan
+Nombre de la Pelicula: Spiderman
+Horario: 8

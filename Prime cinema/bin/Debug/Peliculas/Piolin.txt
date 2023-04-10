@@ -1,0 +1,7 @@
+Nombre de la Pelicula: Tranformers
+Genero de la pelucla: Accion
+Clasificacion: B
+ llamd
+Costo tercera edad N: 5
+Costo Adultos 3D: 5
+Costo tercera edad 3D: 3

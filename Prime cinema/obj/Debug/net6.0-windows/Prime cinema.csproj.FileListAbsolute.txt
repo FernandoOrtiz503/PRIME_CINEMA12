@@ -23,3 +23,10 @@ D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.sucursales.resources
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.peliculas.resources
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Inicio.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.publi.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.BuscarPorNombre.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.BuscarPorSucursal.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Cartelera.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.inicio2.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Pago.resources
+D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Asientos.resources

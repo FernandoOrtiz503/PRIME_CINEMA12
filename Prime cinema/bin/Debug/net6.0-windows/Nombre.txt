@@ -1,5 +1,0 @@
-Contraseña: Contraseña:
-Correo electrónico: Correo:
-DUI: 12345
-Teléfono: Telefono:
-Dirección: Direccion:

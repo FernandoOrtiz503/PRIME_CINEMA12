@@ -1,0 +1,4 @@
+Nombre de la Sucursal: San Miguel
+Nombre persona encargada: Mirian Echeverria
+Direccion: San miguel frente a pizza nova
+Teléfono: 22786654

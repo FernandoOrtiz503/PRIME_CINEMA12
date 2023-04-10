@@ -1,0 +1,4 @@
+Numero de sala: 1
+Nombre de la Sucursal: Metro Centro
+Nombre de la Pelicula: Hotel 
+Horario: 2

@@ -74,5 +74,18 @@ namespace Prime_cinema
         {
             AbrirFormEnPanel(new Inicio());
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            // Crea una instancia del nuevo formulario que deseas abrir
+            Form formulario2 = new Form1();
+
+            // Cierra el formulario actual
+            this.Hide();
+
+
+            // Muestra el nuevo formulario
+            formulario2.ShowDialog();
+        }
     }
 }
