@@ -1,0 +1,4 @@
+Numero de sala: 5
+Nombre de la Sucursal: El cafetalon
+Nombre de la Pelicula: Piolin
+Horario: 6

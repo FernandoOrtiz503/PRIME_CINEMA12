@@ -1,0 +1,21 @@
+Nombre: Armando Figueroa
+Sala: 6
+Sucursal: El cafetalon
+Horario: 4
+Película: Dalmata
+Formato: 3D
+Cantidad entradas E: 1
+Cantidad entradas A: 2
+Costo unitario E: 5.60
+Costo unitario A: 6.55
+Total E: 5.6
+Total A: 13.1
+Monto total: 18.7
+Pago: 20
+Cambio: 1.3
+----------------------------------
+Asientos seleccionados:
+21
+22
+28
+----------------------------------

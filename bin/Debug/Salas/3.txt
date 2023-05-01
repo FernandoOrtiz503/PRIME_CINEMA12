@@ -1,0 +1,4 @@
+Numero de sala: 3
+Nombre de la Sucursal: San Miguel
+Nombre de la Pelicula: Tranformers
+Horario: 7

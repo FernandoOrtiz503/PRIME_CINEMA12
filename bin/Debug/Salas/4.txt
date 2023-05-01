@@ -1,0 +1,4 @@
+Numero de sala: 4
+Nombre de la Sucursal: San Miguel
+Nombre de la Pelicula: PC
+Horario: 4

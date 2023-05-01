@@ -1,0 +1,4 @@
+Numero de sala: 8
+Nombre de la Sucursal: Santo Tomas
+Nombre de la Pelicula: PC
+Horario: 8

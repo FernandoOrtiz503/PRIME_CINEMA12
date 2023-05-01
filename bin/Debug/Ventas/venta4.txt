@@ -1,0 +1,21 @@
+Nombre: Carlos jose
+Sala: 7
+Sucursal: Plaza centro
+Horario: 1
+Película: Piratas
+Formato: Tradicional
+Cantidad entradas E: 1
+Cantidad entradas A: 3
+Costo unitario E: 3.90
+Costo unitario A: 5.00
+Total E: 3.9
+Total A: 15
+Monto total: 13.9
+Pago: 20
+Cambio: 6.1
+----------------------------------
+Asientos seleccionados:
+1
+2
+3
+----------------------------------

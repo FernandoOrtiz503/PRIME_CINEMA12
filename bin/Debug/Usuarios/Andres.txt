@@ -1,0 +1,6 @@
+Contraseña: 1234
+Correo electrónico: dadasd
+DUI: 6111
+Teléfono: 12312321
+Dirección: asdadas
+Rol: Usuario

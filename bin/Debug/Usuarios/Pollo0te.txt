@@ -1,0 +1,6 @@
+Contraseña: 1234
+Correo electrónico: asdasdasdas
+DUI: 7777
+Teléfono: 312312
+Dirección: dasdsa
+Rol: Usuario

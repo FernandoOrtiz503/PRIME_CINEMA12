@@ -1,0 +1,6 @@
+Contraseña: 1234
+Correo electrónico: dasdas
+DUI: 8888
+Teléfono: dasdasd
+Dirección: dasda
+Rol: Administrador

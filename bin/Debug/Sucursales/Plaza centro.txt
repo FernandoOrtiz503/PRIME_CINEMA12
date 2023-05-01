@@ -1,0 +1,4 @@
+Nombre de la Sucursal: Plaza centro
+Nombre persona encargada: Carlos
+Direccion: asdsadas
+Teléfono: 55667

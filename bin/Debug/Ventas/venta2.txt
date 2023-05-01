@@ -1,0 +1,21 @@
+Nombre: Tia Paola
+Sala: 4
+Sucursal: San Miguel
+Horario: 4
+Película: PC
+Formato: 3D
+Cantidad entradas E: 2
+Cantidad entradas A: 1
+Costo unitario E: 5.60
+Costo unitario A: 6.55
+Total E: 11.2
+Total A: 6.55
+Monto total: 17.75
+Pago: 20
+Cambio: 2.25
+----------------------------------
+Asientos seleccionados:
+1
+2
+3
+----------------------------------

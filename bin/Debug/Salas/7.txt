@@ -1,0 +1,4 @@
+Numero de sala: 7
+Nombre de la Sucursal: Plaza centro
+Nombre de la Pelicula: Piratas
+Horario: 1

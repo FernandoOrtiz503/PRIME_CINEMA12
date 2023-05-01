@@ -1,0 +1,7 @@
+Nombre de la Pelicula: Pinocho
+Genero de la pelucla: Accion
+Clasificacion: b
+Costo Adultos N: 5.3
+Costo tercera edad N: 2.6
+Costo Adultos 3D: 4.3
+Costo tercera edad 3D: 3.2

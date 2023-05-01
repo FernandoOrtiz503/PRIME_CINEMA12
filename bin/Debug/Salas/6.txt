@@ -1,0 +1,4 @@
+Numero de sala: 6
+Nombre de la Sucursal: El cafetalon
+Nombre de la Pelicula: Dalmata
+Horario: 4

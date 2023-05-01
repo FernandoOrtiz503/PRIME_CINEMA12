@@ -1,0 +1,6 @@
+Contraseña: 1234
+Correo electrónico: dasdsadsa
+DUI: 222
+Teléfono: 77665544
+Dirección: sadasdas
+Rol: Usuario

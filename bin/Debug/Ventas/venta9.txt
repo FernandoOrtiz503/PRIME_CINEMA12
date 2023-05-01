@@ -1,0 +1,21 @@
+Nombre: Fernando
+Sala: 7
+Sucursal: Plaza centro
+Horario: 1
+Película: Piratas
+Formato: Tradicional
+Cantidad entradas E: 2
+Cantidad entradas A: 1
+Costo unitario E: 3.90
+Costo unitario A: 5.00
+Total E: 7.8
+Total A: 5
+Monto total: 12.8
+Pago: 20
+Cambio: 7.2
+----------------------------------
+Asientos seleccionados:
+1
+2
+9
+----------------------------------
